@@ -4,15 +4,20 @@ import avatar from "../../public/avatar.png";
 export default function Home() {
   return (
     <>
-      <div className="text-center  text-yellow-500 text-5xl text mt-5">
+      <div className="text-center  text-yellow-500 text-5xl text mt-16">
         <h1>Sejam bem vindos</h1>
       </div>
 
-      <div className="flex w-auto mt-10 sm:flex-none">
-        <div className="flex  w-1/2" >
-          <Image  src={avatar} alt="Picture of the author" />
+      <div className=" flex sm:grid-element">
+        <div>
+          <Image
+           src={avatar} 
+           alt="Picture of the author" />
         </div>
-        <div className="border w-1/2  text-black text-center bg-yellow-500  mr-10 ">
+
+
+        <div className="border w-1/2 mt-8  text-black text-center bg-yellow-500  mr-10 ">
+          <h1 className="text-center text-yellow-500 text-lg">Quem sou eu ? </h1>
           Olá, sou um desenvolvedor frontend apaixonado por criar interfaces
           atraentes e funcionais. Com uma combinação de habilidades em HTML, CSS
           e JavaScript, trabalho para transformar conceitos em realidade
