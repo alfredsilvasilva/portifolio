@@ -3,7 +3,7 @@ import avatar from "../../public/avatar.png";
 
 export default function Home() {
   return (
-    <>
+    <section>
       <div className="text-center  text-yellow-500 text-5xl text mt-16">
         <h1>Sejam bem vindos</h1>
       </div>
@@ -40,6 +40,6 @@ export default function Home() {
           discutirmos como posso ajudar a alcançar seus objetivos.
         </div>
       </div>
-    </>
+    </section>
   );
 }

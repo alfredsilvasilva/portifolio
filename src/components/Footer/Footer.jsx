@@ -1,15 +1,29 @@
 const Footer = () => {
-    return (
-      <footer className="bg-gray-900 text-white py-4 absolute sm:bottom-0 bottom-0 w-full">
-        <div className="max-w-7xl mx-auto px-4">
-          <p className="text-center">
-            Todos os direitos reservados a Alfredo Jose da Silva 2023
-          </p>
-        </div>
-      </footer>
-    );
-  };
+  return (
   
-  export default Footer;
-  
-  
+
+<footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+    <span class="text-sm text-white sm:text-center dark:text-amber-400  ">Todos direitos reservados a Alfredo Silva  <a href="https://flowbite.com/" class="hover:underline">™</a>
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-amber-400 sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+</footer>
+
+
+  );
+}
+
+
+export default Footer;

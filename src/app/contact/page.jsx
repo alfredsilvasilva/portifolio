@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const contact = () => {
   return (
@@ -10,6 +11,7 @@ const contact = () => {
         <input className="rounded-xl h-8" type="text" />
 
         <label htmlFor="email">Email</label>
+      
 
         <input
           className=" h-10 rounded-xl"
@@ -33,13 +35,16 @@ const contact = () => {
         <div className="  items-center ">
           <h2 className='text mt-10 text-xl text-yellow-500'>Redes Sociais</h2>
           <div className='space-x-5 cursor-pointer  flex mt-5'>
+           
             <div className='w-16  text-base bg-white h-16 border'>
+            
               <Image
                 src="/facebook.png"
                 width={500}
                 height={500}
                 alt="Picture of the author"
-              /> facebook</div>
+              /><Link href="https://www.facebook.com/alfredo.silva.165">Facebook</Link></div>
+
             <div className='w-16 h-16 border'> <Image
                 src="/instagram.jpg"
                 width={500}
